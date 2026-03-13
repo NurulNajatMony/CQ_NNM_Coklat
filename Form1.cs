@@ -25,3 +25,7 @@ namespace PraktikumADO
         {
             conn = new SqlConnection("Data Source=LAPTOP-4F1IGKI8\\NURUL;Initial Catalog=DBAkademikADO;Integrated Security=True");
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+        }
