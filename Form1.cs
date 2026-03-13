@@ -143,3 +143,13 @@ namespace PraktikumADO
 
         private void btnInsertProdi_Click(object sender, EventArgs e)
         {
+            try
+            {
+                Koneksi();
+                conn.Open();
+                string query = "INSERT INTO ProgramStudi VALUES ('MI01','Manajemen Informatika')";
+                cmd = new SqlCommand(query, conn);
+                int hasil = cmd.ExecuteNonQuery();
+                MessageBox.Show("Data Prodi berhasil ditambahkan. Baris terpengaruh: " + hasil);
+                conn.Close();
+            }
