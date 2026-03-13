@@ -138,3 +138,5 @@ namespace PraktikumADO
                 MessageBox.Show(ex.Message);
             }
         }
+
+        // Latihan 3: Insert data ke tabel Program Studi
