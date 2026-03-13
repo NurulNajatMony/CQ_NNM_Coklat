@@ -98,3 +98,5 @@ namespace PraktikumADO
                 MessageBox.Show(ex.Message);
             }
         }
+
+        // Latihan 1: Menghitung jumlah data Dosen
