@@ -153,3 +153,10 @@ namespace PraktikumADO
                 MessageBox.Show("Data Prodi berhasil ditambahkan. Baris terpengaruh: " + hasil);
                 conn.Close();
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+    }
+}
