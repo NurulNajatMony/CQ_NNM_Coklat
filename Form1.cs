@@ -21,4 +21,7 @@ namespace PraktikumADO
             InitializeComponent();
         }
 
-        
+        private void Koneksi()
+        {
+            conn = new SqlConnection("Data Source=LAPTOP-4F1IGKI8\\NURUL;Initial Catalog=DBAkademikADO;Integrated Security=True");
+        }
