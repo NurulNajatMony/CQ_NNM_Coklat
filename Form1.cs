@@ -140,3 +140,6 @@ namespace PraktikumADO
         }
 
         // Latihan 3: Insert data ke tabel Program Studi
+
+        private void btnInsertProdi_Click(object sender, EventArgs e)
+        {
