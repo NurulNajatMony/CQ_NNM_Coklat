@@ -118,3 +118,5 @@ namespace PraktikumADO
                 MessageBox.Show(ex.Message);
             }
         }
+
+        // Latihan 2: Update SKS pada tabel MataKuliah
